@@ -2,6 +2,28 @@
 Changelog for package ddynamic_reconfigure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2020-05-04)
+------------------
+* Merge pull request #12 from eurogroep/feat/groups
+  feat(groups): Option to specify a group for a variable
+* feat(groups): Option to specify a group for a variable
+  The group "Default" will be set as default so no behavior will change.
+  However, this commit will break ABI / API compatibility.
+* Contributors: Rein Appeldoorn, Victor Lopez
+
+0.2.3 (2020-04-10)
+------------------
+* Merge pull request #10 from ooeygui/kinetic-devel
+  Support Windows
+* Windows support
+* Fix for Windows
+* Fix getMax(), wrong numeric_limit
+* Add example for DDR with NodeHandle
+* Merge pull request #7 from reinzor/patch-1
+  Update README.md - show proper heading
+* Update README.md
+* Contributors: Lou Amadio, Rein Appeldoorn, Victor Lopez
+
 0.2.2 (2019-09-04)
 ------------------
 * Add SYSTEM include_directories
